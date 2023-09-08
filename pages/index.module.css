@@ -65,3 +65,39 @@
   font-weight: bold;
   margin-top: 40px;
 }
+
+
+/* Header container */
+.header {
+  display: flex; /* Use flexbox to arrange logo and tabs horizontally */
+  justify-content: space-between; /* Push logo to the left and tabs to the right */
+  align-items: center; /* Vertically align items */
+  background-color: #333; /* Set a background color for the header */
+  padding: 10px 20px; /* Add padding for spacing */
+}
+
+/* Logo styles (adjust as needed) */
+.logo {
+  width: 100px; /* Adjust the width of your logo */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+/* Navigation menu styles (adjust as needed) */
+.nav {
+  list-style: none; /* Remove list bullets */
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block; /* Display navigation items horizontally */
+  margin-right: 20px; /* Add spacing between menu items */
+}
+
+/* Style links in the navigation menu (adjust as needed) */
+.nav a {
+  text-decoration: none;
+  color: #fff; /* Link text color */
+  font-weight: bold; /* Font weight for emphasis */
+  font-size: 16px; /* Font size for menu items */
+}
