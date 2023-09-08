@@ -37,12 +37,8 @@ export default function Home() {
         <title>AIsha</title>
       </Head>
 
-
-
-    <head>
-      <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
+      <header>
+          <body>
       <div class="header">
         <div class="logo">
           <img src="logo.png" alt="Logo">
@@ -54,9 +50,9 @@ export default function Home() {
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
-      <!-- Rest of your website content goes here -->
     </body>
-
+        
+      </header>
 
 
       <main className={styles.main}>
