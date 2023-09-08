@@ -34,8 +34,19 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>OpenAI Quickstart</title>
+        <title>Rachita</title>
       </Head>
+
+      <header>
+        <a href="{{site.baseurl}}/"><img src="https://cdn.discordapp.com/attachments/1010780182476496908/1143782132897042502/Screenshot_2023-08-21_at_9.23.54_AM.png" alt="Logo" /></a>
+        
+        <ul class="downloads">
+          <li><a href="{{site.baseurl}}/blogs" ><strong>Blogs</strong></a></li>
+          <li><a href="{{site.baseurl}}/labnotebook"><strong>Lab Notebook</strong></a></li>
+          <li><a href=""><strong>GitHub</strong></a></li>
+        </ul>
+        
+      </header>
 
       <main className={styles.main}>
         <h3>Talk to Rachita</h3>
