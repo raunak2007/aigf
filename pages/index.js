@@ -41,7 +41,6 @@ export default function Home() {
           <body>
       <div class="header">
         <div class="logo">
-          <img src="logo.png" alt="Logo">
         </div>
         <ul class="nav">
           <li><a href="#">Home</a></li>
