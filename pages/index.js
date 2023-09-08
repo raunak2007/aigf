@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Rachita</title>
+        <title>AIsha</title>
       </Head>
 
       <header>
