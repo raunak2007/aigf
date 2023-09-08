@@ -38,7 +38,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h3>Talk to Gf</h3>
+        <h3>Talk to Rachita</h3>
         <form onSubmit={onSubmit}>
           <input
             type="text"
