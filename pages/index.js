@@ -43,8 +43,8 @@ export default function Home() {
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-      <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -66,7 +66,6 @@ export default function Home() {
     </ul>
   </div>
 </nav>
-      </header>
 
 
       <main className={styles.main}>
