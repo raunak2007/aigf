@@ -32,7 +32,6 @@ export default function Home() {
   }
 
   return (
-    
     <div>
       <Head>
         <title>AIsha</title>
