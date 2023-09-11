@@ -63,6 +63,7 @@ export default function Home() {
         </form>
         <div className={styles.result}>{result}</div>
         <br></br>
+        <img src="https://cdn.discordapp.com/attachments/923041823562276894/1150688441332400189/AIsha._1000_50_px_2.png" width="100%"></img>
       </main>
     </div>
   );
