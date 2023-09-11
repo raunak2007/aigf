@@ -32,6 +32,7 @@ export default function Home() {
   }
 
   return (
+    
     <div>
       <Head>
         <title>AIsha</title>
@@ -47,8 +48,7 @@ export default function Home() {
 
 
       <main className={styles.main}>
-        
-        <p>Dating in the 21st century is hard. That's why we've created an AI girlfriend – a revolutionary digital companion designed to provide companionship, support, and genuine connection in an increasingly complex world of relationships.</p>
+        <p style="margin-top: 20px; margin-bottom: 20px; margin-left: 30px; margin-right: 30px;">Dating in the 21st century is hard. That's why we've created an AI girlfriend – a revolutionary digital companion designed to provide companionship, support, and genuine connection in an increasingly complex world of relationships.</p>
         
         <h3>Talk to Rachita</h3>
         <form onSubmit={onSubmit}>
@@ -63,6 +63,7 @@ export default function Home() {
         </form>
         <div className={styles.result}>{result}</div>
       </main>
+
     </div>
   );
 }

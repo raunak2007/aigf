@@ -65,15 +65,3 @@
   font-weight: bold;
   margin-top: 40px;
 }
-
-p {
-  margin-top: 20px; /* Margin on the top */
-  margin-right: 30px; /* Margin on the right */
-  margin-bottom: 20px; /* Margin on the bottom */
-  margin-left: 30px; /* Margin on the left */
-}
-
-/* Add margin to a div */
-.my-div {
-  margin: 10px; /* All margins are set to 10px */
-}
