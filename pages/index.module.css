@@ -36,6 +36,13 @@
   color: #202123;
   margin: 16px 0 40px;
 }
+.main h2 {
+  font-size: 12px;
+  line-height: 40px;
+  font-weight: normal;
+  color: black;
+  margin: 20px 0 40px;
+}
 .main form {
   display: flex;
   flex-direction: column;
