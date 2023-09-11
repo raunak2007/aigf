@@ -62,6 +62,7 @@ export default function Home() {
           <input type="submit" value="Talk to your girlfriend" />
         </form>
         <div className={styles.result}>{result}</div>
+        <br></br>
       </main>
     </div>
   );
