@@ -49,6 +49,7 @@ export default function Home() {
       <main className={styles.main}>
         <h2>Dating in the 21st century is hard. That's why we've created an AI girlfriend...</h2>
         <h2>a revolutionary digital companion designed to provide companionship, support, and genuine connection in a complex world of relationships.</h2>
+        <img src="https://cdn.discordapp.com/attachments/923041823562276894/1150679189087866920/Untitled_1000_300_px.png" width="100%"></img>
         <h3>Talk to AIsha</h3>
         <form onSubmit={onSubmit}>
           <input
