@@ -47,7 +47,8 @@ export default function Home() {
     <img src="https://cdn.discordapp.com/attachments/923041823562276894/1150657803992703106/Black_And_White_Aesthetic_Minimalist_Modern_Simple_Typography_Coconut_Cosmetics_Logo_800_500_px_1000_500_px.png" alt="Logo" width='100%'></img>
 
       <main className={styles.main}>
-        <h2>Dating in the 21st century is hard. That's why we've created an AI girlfriend – a revolutionary digital companion designed to provide companionship, support, and genuine connection in an increasingly complex world of relationships.</h2>
+        <h2>Dating in the 21st century is hard. That's why we've created an AI girlfriend...</h2>
+        <h2>a revolutionary digital companion designed to provide companionship, support, and genuine connection in an increasingly complex world of relationships.</h2>
         <h3>Talk to AIsha</h3>
         <form onSubmit={onSubmit}>
           <input
