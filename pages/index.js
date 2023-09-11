@@ -43,7 +43,7 @@ export default function Home() {
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <img src="https://cdn.discordapp.com/attachments/923041823562276894/1150636703149740113/AIsha._1000_50_px.png" alt="Logo"></img>
+    <img src="https://cdn.discordapp.com/attachments/923041823562276894/1150636703149740113/AIsha._1000_50_px.png" alt="Logo" width='100%'></img>
 
 
       <main className={styles.main}>
