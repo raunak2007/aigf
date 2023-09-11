@@ -43,33 +43,13 @@ export default function Home() {
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-      
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-        <a class="navbar-brand" href="#">My Website</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
+    <img src="https://cdn.discordapp.com/attachments/923041823562276894/1150632754707451964/Screenshot_2023-09-10_at_8.23.39_PM.png" alt="Logo" width="30" height="30"></img>
+      <ul class="navbar">
+        <ul><a href="#home">Home</a></ul>
+        <ul><a href="#about">About</a></ul>
+        <ul><a href="#services">Services</a></ul>
+        <ul><a href="#contact">Contact</a></ul>
+      </ul>
 
       <main className={styles.main}>
         <p>Dating in the 21st century is hard. That's why we've created an AI girlfriend – a revolutionary digital companion designed to provide companionship, support, and genuine connection in an increasingly complex world of relationships.</p>
