@@ -43,7 +43,7 @@ export default function Home() {
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <img src="https://cdn.discordapp.com/attachments/923041823562276894/1150632754707451964/Screenshot_2023-09-10_at_8.23.39_PM.png" alt="Logo" width="30" height="30"></img>
+    <img src="https://cdn.discordapp.com/attachments/923041823562276894/1150632754707451964/Screenshot_2023-09-10_at_8.23.39_PM.png" alt="Logo" width="300" height="100"></img>
       <ul class="navbar">
         <ul><a href="#home">Home</a></ul>
         <ul><a href="#about">About</a></ul>
