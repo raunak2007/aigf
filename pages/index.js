@@ -47,7 +47,9 @@ export default function Home() {
 
 
       <main className={styles.main}>
+        
         <p>Dating in the 21st century is hard. That's why we've created an AI girlfriend – a revolutionary digital companion designed to provide companionship, support, and genuine connection in an increasingly complex world of relationships.</p>
+        
         <h3>Talk to Rachita</h3>
         <form onSubmit={onSubmit}>
           <input
