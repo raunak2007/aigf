@@ -66,25 +66,3 @@
   margin-top: 40px;
 }
 
-ul.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #333; /* Background color for the navbar */
-}
-
-ul.navbar li {
-  display: inline;
-}
-
-ul.navbar li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul.navbar li a:hover {
-  background-color: #555; /* Background color on hover */
-}
