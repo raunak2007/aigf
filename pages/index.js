@@ -69,13 +69,8 @@ export default function Home() {
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <img src="https://cdn.discordapp.com/attachments/923041823562276894/1150632754707451964/Screenshot_2023-09-10_at_8.23.39_PM.png" alt="Logo" width="300" height="100"></img>
-      <ul class="navbar">
-        <ul><a href="#home">Home</a></ul>
-        <ul><a href="#about">About</a></ul>
-        <ul><a href="#services">Services</a></ul>
-        <ul><a href="#contact">Contact</a></ul>
-      </ul>
+    <img src="https://cdn.discordapp.com/attachments/923041823562276894/1150635194236280983/Screenshot_2023-09-10_at_8.33.22_PM.png" alt="Logo"></img>
+
 
       <main className={styles.main}>
         <p>Dating in the 21st century is hard. That's why we've created an AI girlfriend – a revolutionary digital companion designed to provide companionship, support, and genuine connection in an increasingly complex world of relationships.</p>
