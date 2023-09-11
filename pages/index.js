@@ -37,32 +37,6 @@ export default function Home() {
         <title>AIsha</title>
       </Head>
 
-      <style>
-        /* CSS for the navigation bar */
-        ul.navbar {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            background-color: #333; /* Background color for the navbar */
-        }
-
-        ul.navbar li {
-            display: inline;
-        }
-
-        ul.navbar li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        ul.navbar li a:hover {
-            background-color: #555; /* Background color on hover */
-        }
-    </style>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
