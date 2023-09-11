@@ -32,6 +32,7 @@ export default function Home() {
   }
 
   return (
+    <html>
     <div>
       <Head>
         <title>AIsha</title>
@@ -64,5 +65,6 @@ export default function Home() {
       </main>
 
     </div>
+    </html>
   );
 }
