@@ -3,7 +3,7 @@ import { useState } from "react";
 import styles from "./index.module.css";
 
 export default function Home() {
-  const [animalInput, setAnimalInput] = useState("");
+  const [aigfInput, setaigfInput] = useState("");
   const [result, setResult] = useState();
 
   async function onSubmit(event) {
@@ -14,7 +14,7 @@ export default function Home() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ animal: animalInput }),
+        body: JSON.stringify({ aigf: aigfInput }),
       });
 
       const data = await response.json();
@@ -23,7 +23,7 @@ export default function Home() {
       }
 
       setResult(data.result);
-      setAnimalInput("");
+      setaigfInput("");
     } catch(error) {
       // Consider implementing your own error handling logic here
       console.error(error);
@@ -54,10 +54,10 @@ export default function Home() {
         <form onSubmit={onSubmit}>
           <input
             type="text"
-            name="animal"
+            name="aigf"
             placeholder="Start Talking"
-            value={animalInput}
-            onChange={(e) => setAnimalInput(e.target.value)}
+            value={aigfInput}
+            onChange={(e) => setaigfInput(e.target.value)}
           />
           <input type="submit" value="Talk to your girlfriend" />
         </form>

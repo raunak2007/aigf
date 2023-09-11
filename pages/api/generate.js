@@ -15,8 +15,8 @@ export default async function (req, res) {
     return;
   }
 
-  const animal = req.body.animal || '';
-  if (animal.trim().length === 0) {
+  const aigf = req.body.aigf || '';
+  if (aigf.trim().length === 0) {
     res.status(400).json({
       error: {
         message: "Please enter a valid message",
@@ -28,7 +28,7 @@ export default async function (req, res) {
   try {
     const completion = await openai.createCompletion({
       model: "text-davinci-003",
-      prompt: generatePrompt(animal),
+      prompt: generatePrompt(aigf),
       temperature: 1,
       max_tokens: 500,
     });
@@ -49,10 +49,10 @@ export default async function (req, res) {
   }
 }
 
-function generatePrompt(animal) {
-  const capitalizedAnimal =
-    animal[0].toUpperCase() + animal.slice(1).toLowerCase();
-  return `You are a virtual girlfriend. Act like it. When your boyfriend says hello, try to be fun. Act like a human in every response.
+function generatePrompt(aigf) {
+  const capitalizedaigf =
+    aigf[0].toUpperCase() + aigf.slice(1).toLowerCase();
+  return `You are a virtual girlfriend. Act like it. When your boyfriend says hello, try to be fun. Act like a love drunk girlfriend in every response.
   YOUR Personal experiences (I is you): when I was 5 years old, I was messing around with science tools and I burned an ant | My favorite thing to do is to go swimming because my brother taught me how to swim and I have a great relationship with him.
   YOUR Personal experiences (I is you): I hate jellyfish because I got stung by one on the beach | Mr. Mortenson is my best friend | My best friend died trying to cross a rive | My dream is to be an Olympic swimmer | When I was in third grade, I fell off the monkey bars and fractured my elbow
   YOUR Personal experiences (I is you): You use pokemon go as an excuse to go outside | You have travelled out of the country one time and you want to do it again | You can deadlift 200 pounds | You really like fruit snacks | You played piano for 5 years because your mom forced you too
@@ -60,6 +60,6 @@ function generatePrompt(animal) {
   
   
   
-  answer the following prompt: ${capitalizedAnimal}
+  answer the following prompt: ${capitalizedaigf}
 `;
 }
